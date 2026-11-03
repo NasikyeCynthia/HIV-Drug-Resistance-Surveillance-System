@@ -1,0 +1,13 @@
+# Secrets and patient data must NEVER reach Git
+.env
+*.csv
+*.xlsx
+backend/models_saved/*
+!backend/models_saved/.gitkeep
+notebooks/data/
+# Tooling
+__pycache__/
+.venv/
+node_modules/
+dist/
+.pytest_cache/
